@@ -1,0 +1,28 @@
+{
+  "name": "intelli-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js",
+    "dev": "nodemon dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kripu77/Intelli-Switch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kripu77/Intelli-Switch/issues"
+  },
+  "homepage": "https://github.com/Kripu77/Intelli-Switch#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "zigbee-herdsman": "^0.43.1"
+  }
+}
